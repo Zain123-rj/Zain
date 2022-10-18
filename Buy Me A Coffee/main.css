@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --main-color:#c48c4b;
+    --white:#fff;
+    --black:#333;
+    --light-color:#666;
+}
+
+
+
+/****** Header Css Start********/
+ 
+#header .navbar{
+    box-shadow: 0px 0px 5px 2px rgb(117, 108, 108);
+}
+#header .logo{
+    height: 4rem;
+    padding-bottom: 10px;
+}
+#header .navbar-nav .nav-link{
+    color: black;
+    padding-left: 10px;
+}
+
+#header .navbar-nav .nav-link:hover{
+    color: var(--main-color);
+    transition: all 0.5s ease-in-out;
+}
+#header .navbar-nav .nav-link::after{
+    content: ' ';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: var(--main-color);
+}
+#header .navbar-nav .nav-link:hover::after{
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+}
+
+/****** Header Css End********/
+
+
+
+
+/* ************************************************************************ */
+
+
+
+
+/*********** Home Css Start ************/
+
+#home{
+    background: url('../Buy Me A Coffee/images/home-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+#home .title{
+    font-family: 'Merienda One', cursive;
+}
+#home .lead{
+    font-family: 'Merienda One', cursive;
+    font-size: 1.2rem;
+}
+#home .btn{
+    padding: 7px 25px;
+    border-radius: 0px;
+    border: none;
+    background-color: var(--main-color);
+}
+#home .btn:hover{
+
+    background-color: #6b400f;
+    transition: all 0.5s ease-in-out;
+}
+/*********** Home Css End ************/
+
+
+/* ************************************************************************ */
+
+
+/*********** About Css Start ************/
+#about .jumbotron{
+    background-image: url('../Buy Me A Coffee/images/about-img.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#about .title{
+    font-family: 'Merienda One', cursive;
+    color: var(--black);
+    /* padding-bottom: 0px; */
+}
+#about .lead{
+    color: var(--black);
+    font-size: 1.1rem;
+    padding-top: 10px;
+    font-weight: 600;
+    width: 80%;
+
+}
+#about .btn{
+    padding: 7px 25px;
+    border-radius: 0px;
+    border: none;
+    background-color: var(--main-color);
+}
+#about .btn:hover{
+
+    background-color: #6b400f;
+    transition: all 0.5s ease-in-out;
+}
+/*********** About Css End ************/
+
+
+
+
+/* ************************************************************************ */
+/* Facility Css Start */
+/* Facility Css End */
+
+
+
+/* ************************************************************************ */
+/********** Menu Css Start **********/
+#menu .fac-img{
+    width: 200px;
+}
+/*********** Menu Css End***********/
+
+
+
+
+
+
+/************************************************************************* */
+/********** Gallery Css Start **********/
+/*********** Gallery Css End***********/
+
+
+
+
+/************************************************************************* */
+/********** Team Css Start **********/
+/*********** Team Css End***********/
+
+
+
+
+
+
+/************************************************************************* */
+/********** Contact Css Start **********/
+#contact .image{
+    width: 500px;
+}
+#contact .btn{
+    padding: 7px 25px;
+    border-radius: 0px;
+    border: none;
+    background-color: var(--main-color);
+}
+#contact .btn:hover{
+
+    background-color: #6b400f;
+    transition: all 0.5s ease-in-out;
+}
+/*********** Contact Css End***********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+/* MediaQuery */
+    @media(max-width: 375px){
+        #home .content{
+            text-align: center;
+        }
+        #home .title{
+            font-size: 2rem;
+        }
+    }
+
+    @media(max-width: 414px){
+        #home .content{
+            text-align: center;
+        }
+        #home .title{
+            font-size: 2rem;
+        }
+    }
+
+    @media(max-width: 274px){
+        #home .content{
+            text-align: center;
+            margin-top: 30px;
+        }
+        #home .title{
+            font-size: 2rem;
+        }
+    }
+
+
